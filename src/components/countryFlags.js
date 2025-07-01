@@ -16,8 +16,8 @@ function CountryFlags() {
           const resData = response.data;
           setData(resData);
         }
-      } catch (err) {
-        console.error("Error fetching data",err);
+      } catch {
+        console.error("Error fetching data");
       }
     }
     fetchData()
