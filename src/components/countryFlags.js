@@ -17,7 +17,7 @@ function CountryFlags() {
           setData(resData);
         }
       } catch (err) {
-        console.error(err);
+        console.error("Error fetching data",err);
       }
     }
     fetchData()
